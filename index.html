@@ -9,12 +9,12 @@
 </head>
 <body>
   <header>
-    <div class="section-inner header-section" aria-labelledby="nav-main">
+    <div class="section-inner header-section">
       <a href="#">
         <img class="logo" src="/assets/img/volvo-spread-wordmark.svg" alt="Volvo">
       </a>
 
-      <nav class="main-nav">
+      <nav class="main-nav" aria-labelledby="nav-main">
         <ul>
           <li>
             <a href="#">Våra bilar</a>
@@ -64,22 +64,22 @@
     <section>
       <div class="section-inner cards-section">
         <div class="cards">
-          <h3> erbjudanden <span> > </span></h3>
+          <h3> erbjudanden <span> &gt; </span></h3>
           <p> hitta din nästa dunder bil  </p>
         </div>
 
         <div class="cards">
-          <h3> Lagerbilar <span> > </span></h3>
+          <h3> Lagerbilar <span> &gt; </span></h3>
           <p> Utfroska vårt utbud av helt nya bilar </p>
         </div>
 
         <div class="cards">
-          <h3> Bygg din Volvo <span> > </span></h3>
+          <h3> Bygg din Volvo <span> &gt; </span></h3>
           <p> Hitta din drömbil och designa den exakt som du vill </p>
         </div>
 
         <div class="cards">
-          <h3> Begagnade bilar <span> > </span></h3>
+          <h3> Begagnade bilar <span> &gt; </span></h3>
           <p> Upptäck certifierade begagnade bilar med garanti </p>
         </div>
       </div>
@@ -95,46 +95,56 @@
         </div>
 
         <div class="column"> 
+=======
+        <div class="column">
           <img src="/assets/img/tease-nya-volvo.webp" alt="">
           <h3> Kommer snart. Nya Volvo ES90. </h3>
           <p> Håll dig uppdaterad om ES90 genom att prenumerera på vårt nyhetsbrev. </p>
           <a href="#" class="button"> Utforska </a>
         </div>
       </div>
+    </section>
   </main>
 
   <footer>
       <div class="section-inner">
-        <h3>topp</h3>
+        <div class="to-top">
+          <a href="#">Till toppen</a>
+        </div>
         <nav class="footer-nav" aria-labelledby="nav-footer">
             <ul>
-              <li><a href="#">title</a></li>
-              <li><a href="#">link</a></li>
-              <li><a href="#">link</a></li>
-              <li><a href="#">link</a></li>
-              <li><a href="#">link</a></li>
-              <li><a href="#">link</a></li>
+              <li><a href="#">HJÄLP OCH SUPPORT</a></li>
+              <li><a href="#">Boka service</a></li>
+              <li><a href="#">Support &amp; ägarmanualer</a></li>
+              <li><a href="#">Volvo Assistans</a></li>
+              <li><a href="#">Återkallelser</a></li>
+              <li><a href="#">Leveransinformation</a></li>
             </ul>
             <ul>
-              <li><a href="#">title</a></li>
-              <li><a href="#">link</a></li>
-              <li><a href="#">link</a></li>
+              <li><a href="#">KONTAKTA OSS</a></li>
+              <li><a href="#">Kontakta oss</a></li>
+              <li><a href="#">Hitta Volvohandlare</a></li>
             </ul>
             <ul>
-              <li><a href="#">title</a></li>
-              <li><a href="#">link</a></li>
-              <li><a href="#">link</a></li>
+              <li><a href="#">VOLVO CARS APP</a></li>
+              <li><a href="#">App Store</a></li>
+              <li><a href="#">Google Play</a></li>
             </ul>
         </nav>
-        <h4>Sweden</h4>
-        <div class="icons">
-          <span></span>
-          <span></span>
-          <span></span>
-          <span></span>
+        <div class="location">
+          <img src="./assets/svg/location-sign.svg" alt="location-sign">
+          <span>Sweden</span>
         </div>
-        <p>cookies</p>
-        <p>copyright</p>
+        <div class="social-media">
+          <span class="icons"></span>
+          <span class="icons"></span>
+          <span class="icons"></span>
+          <span class="icons"></span>
+        </div>
+        <div>
+          cookies
+        </div>
+        <span>copyright</span>
       </div>
   </footer>
 </body>
