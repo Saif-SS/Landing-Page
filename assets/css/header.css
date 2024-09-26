@@ -1,0 +1,45 @@
+.logo {
+  padding: 16px 0;
+  width: 104px;
+}
+
+header {
+  position: sticky;
+  top: 0;
+  z-index: 2;
+  background-color: var(--color-white);
+}
+
+header .section-inner {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  margin: var(--spacing-md) var(--spacing-lg);
+  max-width: none;
+}
+
+.main-nav ul {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  gap: var(--spacing-md);
+}
+
+.main-nav a {
+  text-decoration: none;
+  color: var(--color-black);
+  font-size: 14px;
+  font-weight: 700;
+  padding: var(--spacing-md);
+  border-radius: 4px;
+  transition: var(--transition);
+}
+
+.main-nav a:hover {
+  background-color: var(--color-light-gray);
+}
+
+.main-nav a span {
+  font-family: "Font Awesome";
+}
