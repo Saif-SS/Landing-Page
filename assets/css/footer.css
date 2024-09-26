@@ -1,3 +1,11 @@
-footer {
-  background-color: red;
+.footer-links {
+  display: flex;
+}
+
+.footer-links > ul > li:first-child {
+  font-size: 20px;
+}
+
+.icons {
+  font-family: 'Font Awesome';
 }
