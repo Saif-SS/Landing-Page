@@ -1,0 +1,15 @@
+body {
+    margin: 0px;
+}
+
+header, section, footer {
+    border: 4px solid #333;
+    display: flex;
+    justify-content: center;
+}
+
+.section-inner {
+    background-color: #545353;
+    max-width: 1200px;
+    width: 100%;
+}
