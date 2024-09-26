@@ -3,6 +3,7 @@
   --color-white: #FFFFFF;
   --color-black: #000000;
   --color-gray: #CCCCCC;
+  --color-light-gray: #EFEFEF;
 
   /* Typography */
   --font-size-xxl: 36px;
@@ -10,4 +11,7 @@
   /* Spacing */
   --spacing-md: 12px;
   --spacing-lg: 24px;
+
+  /* Misc */
+  --transition: transform .22s, background-color .22s;
 }
