@@ -1,11 +1,31 @@
-.footer-links {
-  display: flex;
+footer {
+  background-color: #eeeeee;
 }
 
-.footer-links > ul > li:first-child {
+footer .section-inner {
+  display: flex;
+  flex-flow: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.footer-nav {
+  display: flex;
+  justify-content: center;
+  gap: 5rem;
+}
+
+.footer-nav > ul {
+  list-style: none;
+  text-align: left;
+}
+
+.footer-nav > ul > li:first-child {
   font-size: 20px;
 }
 
 .icons {
   font-family: 'Font Awesome';
+  display: flex;
+  gap: 2rem;
 }
