@@ -1,9 +1,12 @@
 .hero {
+  position: relative;
   background-image: url("/assets/img/hero-desktop.webp");
+  background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
   min-height: 320px;
   height: 42vw;
+  color: var(--color-white);
 }
 
 .hero .section-inner {
@@ -11,4 +14,29 @@
   flex-direction: column;
   text-align: right;
   justify-content: flex-end;
+  z-index: 1;
+}
+
+.hero-overlay {
+  background:
+    radial-gradient(circle at 20% 50%, hsla(0, 0%, 5%, 0), hsla(0, 0%, 5%, .15), hsla(0, 0%, 5%, .3));
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.hero .section-inner > *:not(:last-child) {
+  margin-bottom: 1.25rem;
+}
+
+.hero h1 {
+  font-size: var(--font-size-xxl);
+  line-height: 1.2;
+  letter-spacing: 0.0625rem;
+}
+
+.hero .cta {
+  margin-top: 1rem;
 }
