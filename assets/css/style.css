@@ -51,7 +51,9 @@ h3 {
 .two-column-section {
     display: flex;
     flex-direction: row;
+    text-decoration: none;
 }
+
 .two-column-section >* :first-child {
     margin-bottom: 20px;
     padding: 20px;
@@ -61,8 +63,9 @@ h3 {
     aspect-ratio: 16/9;
 }
 
-.button {
-    align-self: flex-start;
-    margin-top: auto;
-    padding: 10px 20px;
+.image-wrapper img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
 }
+
