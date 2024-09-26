@@ -46,3 +46,15 @@ h3 {
     justify-content: space-between;
     display: flex;
 }
+
+.two-column-section {
+    display: flex;
+    flex-direction: row;
+}
+.two-column-section >* :first-child {
+    margin-bottom: 20px;
+}
+
+.image-wrapper {
+    aspect-ratio: 16/9;
+}
