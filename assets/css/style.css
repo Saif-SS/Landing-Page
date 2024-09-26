@@ -21,11 +21,12 @@ header, section, footer {
     display: flex;
     flex-direction: row;
     gap: 20px;
+    cursor: pointer;
 }
 
 .cards {
     flex: 1;
-    background-color: #ccc9c9;
+    background-color: #fafafa;
     padding: 20px;
 }
 
@@ -35,4 +36,9 @@ header, section, footer {
 
 .cards > *:last-child {
     margin-bottom: 0;
+}
+
+h3 {
+    justify-content: space-between;
+    display: flex;
 }
