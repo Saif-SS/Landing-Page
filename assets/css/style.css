@@ -13,8 +13,27 @@ header, section, footer {
 }
 
 .section-inner {
-    background-color: #545353;
     max-width: 1200px;
     width: 100%;
-    margin-top: 64px;
+    margin: 64px 20px;
+}
+
+.cards-section {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.cards {
+    flex: 1;
+    background-color: #ccc9c9;
+    padding: 20px;
+}
+
+.cards > *:first-child {
+    margin-top: 0;
+}
+
+.cards > *:last-child {
+    margin-bottom: 0;
 }
