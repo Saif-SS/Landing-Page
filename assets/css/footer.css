@@ -1,6 +1,6 @@
-/* footer {
-  text-align: center;
-} */
+footer {
+  background-color: #eeeeee;
+}
 
 footer .section-inner {
   display: flex;
@@ -26,4 +26,6 @@ footer .section-inner {
 
 .icons {
   font-family: 'Font Awesome';
+  display: flex;
+  gap: 2rem;
 }
