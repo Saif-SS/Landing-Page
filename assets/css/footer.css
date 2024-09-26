@@ -15,17 +15,46 @@ footer .section-inner {
   gap: 5rem;
 }
 
+ .footer-nav a {
+  text-decoration: none;
+  color: black;
+ }
+
 .footer-nav > ul {
   list-style: none;
   text-align: left;
 }
 
 .footer-nav > ul > li:first-child {
-  font-size: 20px;
+  font-size: 14px;
+  font-weight: 500;
+  pointer-events: none;
+}
+
+.footer-nav > ul > li {
+  padding: 10px 0;
+  font-weight: bold;
 }
 
 .icons {
   font-family: 'Font Awesome';
+}
+
+.social-media {
   display: flex;
   gap: 2rem;
+}
+
+footer img {
+  width: 20px;
+  aspect-ratio: 1/1;
+}
+
+footer .location {
+  display: flex;
+}
+
+footer .to-top a {
+  text-decoration: none;
+  color: black;
 }
