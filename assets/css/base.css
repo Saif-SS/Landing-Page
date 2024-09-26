@@ -10,6 +10,7 @@
 
 html {
   scroll-behavior: smooth;
+  font-size: 16px;
 }
 
 img {
@@ -25,9 +26,18 @@ h1, h2, h3, h4, h5, h6, p {
   margin-bottom: 1.4rem;
 }
 
+/* Elements */
 .cta {
   display: inline-block;
-  padding: 20px;
-  font-size: 24px;
-  background-color: #FFFFFF;
+  padding: var(--spacing-md) var(--spacing-lg);
+  border-radius: 4px;
+  background-color: var(--color-white);
+  color: var(--color-black);
+  text-decoration: none;
+  font-weight: 600;
+  transition: transform .22s, background-color .22s;
+}
+
+.cta:hover {
+  background-color: var(--color-gray);
 }
