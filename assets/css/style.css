@@ -55,11 +55,20 @@ h3 {
     gap: var(--spacing-lg);
 }
 
-.two-column-section img {
+.two-column-section .img-container {
     width: 100%;
-    height: auto;
+    aspect-ratio: 16 / 9;
+    margin-bottom: var(--spacing-lg);
+    overflow: hidden;
+}
+
+.two-column-section img {
+    aspect-ratio: inherit;
     object-fit: cover;
-    aspect-ratio: 16/9;
-    margin-bottom: 20px;
+    transition: transform 450ms ease;
+}
+
+.two-column-section .column:hover img {
+    transform: scale(110%);
 }
 
