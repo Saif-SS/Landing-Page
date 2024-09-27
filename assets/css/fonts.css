@@ -1,5 +1,16 @@
+
 @font-face {
-    font-family: 'Font Awesome';
+    font-family: 'FA Regular';
+    font-style: normal;
+    font-weight: 400;
+    font-display: block;
+    src: url("../webfonts/fa-solid-900.woff2") format("woff2"),
+    url("../webfonts/fa-solid-900.ttf") format("truetype");
+}
+
+
+@font-face {
+    font-family: 'FA Brands';
     font-style: normal;
     font-weight: 400;
     font-display: block;

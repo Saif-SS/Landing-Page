@@ -33,6 +33,11 @@ header, section, footer {
     flex: 1;
     background-color: #fafafa;
     padding: 20px;
+    transition: background-color 450ms ease;
+}
+
+.cards:hover {
+    background-color: var(--color-light-gray);
 }
 
 .cards > *:first-child {
@@ -41,6 +46,10 @@ header, section, footer {
 
 .cards > *:last-child {
     margin-bottom: 0;
+}
+
+.cards .icon {
+    font-family: "FA Regular";
 }
 
 h3 {

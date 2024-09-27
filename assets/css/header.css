@@ -40,6 +40,10 @@ header .section-inner {
   background-color: var(--color-light-gray);
 }
 
-.main-nav a span {
-  font-family: "Font Awesome";
+header .quick-links {
+  gap: var(--spacing-md)
+}
+
+header .icon {
+  font-family: "FA Regular";
 }

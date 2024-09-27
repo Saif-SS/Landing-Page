@@ -47,6 +47,14 @@ h1, h2, h3, h4, h5, h6, p {
   font-weight: 300;
 }
 
+.cta-icon-left span {
+  padding-right: var(--spacing-md);
+}
+
 .cta-text:hover {
   background-color: var(--color-light-gray);
+}
+
+.cta-rounded {
+  border-radius: 50vw;
 }
